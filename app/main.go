@@ -70,6 +70,7 @@ func isCommercial(item *goinsta.Item) bool {
 }
 
 func main() {
+	// load ini
 	inidata, err := ini.Load("/ext/ig2tg.ini")
 	if err != nil {
 		os.Exit(1)
